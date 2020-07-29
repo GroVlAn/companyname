@@ -32,6 +32,17 @@ a{
 .rightMenu2{
     padding-left: 40px !important;
 }
+@media screen and (max-device-width:768px){
+    .rightMenu{
+        padding-left: 130px !important;
+    }
+    .rightMenu2{
+        padding-left: 0 !important;
+    }
+    .nav-image{
+        padding-left: 130px !important;
+    }
+}
 .navbar{
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
